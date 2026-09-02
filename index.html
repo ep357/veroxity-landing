@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veroxity — Creative Studio</title>
+    <meta name="description" content="Veroxity is an independent creative studio crafting brands, digital experiences, and editorial design for people who want to stand out." />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#work">Skip to content</a>
+
+    <!-- NAVBAR -->
+    <header class="nav" id="nav">
+      <div class="nav__inner">
+        <a href="#top" class="nav__brand" aria-label="Veroxity home">
+          <span class="nav__mark" aria-hidden="true">⚡</span>
+          <span class="nav__name">Veroxity</span>
+        </a>
+
+        <nav class="nav__links" aria-label="Primary">
+          <a href="#work" class="nav__link">Work</a>
+          <a href="#services" class="nav__link">Services</a>
+          <a href="#studio" class="nav__link">Studio</a>
+          <a href="#voices" class="nav__link">Voices</a>
+          <a href="#contact" class="nav__link nav__link--cta">Contact</a>
+        </nav>
+
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme" aria-pressed="false">
+          <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
+          </span>
+          <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z"/></svg>
+          </span>
+        </button>
+
+        <button class="nav__burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span class="nav__burger-line"></span>
+          <span class="nav__burger-line"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <nav class="mobile-menu__nav" aria-label="Mobile">
+        <a href="#work" class="mobile-menu__link">Work</a>
+        <a href="#services" class="mobile-menu__link">Services</a>
+        <a href="#studio" class="mobile-menu__link">Studio</a>
+        <a href="#voices" class="mobile-menu__link">Voices</a>
+        <a href="#contact" class="mobile-menu__link mobile-menu__link--cta">Contact</a>
+      </nav>
+    </div>
+
+    <main id="top">
+      <!-- HERO -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__meta">
+          <span class="eyebrow">Digital Product Studio</span>
+          <span class="hero__since">Est. 2023 · Delhi / Banglore / Hybrid</span>
+        </div>
+
+        <h1 class="hero__title" id="hero-title">
+          We make brands that <em>refuse</em> to be ignored.
+        </h1>
+
+        <div class="hero__grid">
+          <p class="hero__lede">
+            A studio of designers, writers, and engineers building identities,
+            websites, and editorial work for ambitious people — with oversized
+            ideas and an unreasonable attention to detail.
+          </p>
+          <div class="hero__actions">
+            <a href="#work" class="btn btn--primary">See our work</a>
+            <a href="#contact" class="btn btn--ghost">Start a project</a>
+          </div>
+        </div>
+
+  
+        <div class="hero__marquee" aria-hidden="true">
+          <div class="marquee__track">
+            <span>Brand Identity</span><span class="dot">⚡</span>
+            <span>Art Direction</span><span class="dot">⚡</span>
+            <span>Editorial Design</span><span class="dot">⚡</span>
+            <span>Web Design</span><span class="dot">⚡</span>
+            <span>Motion</span><span class="dot">⚡</span>
+            <span>Brand Identity</span><span class="dot">⚡</span>
+            <span>Art Direction</span><span class="dot">⚡</span>
+            <span>Editorial Design</span><span class="dot">⚡</span>
+            <span>Web Design</span><span class="dot">⚡</span>
+            <span>Motion</span><span class="dot">⚡</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SELECTED WORK -->
+      <section class="section work" id="work" aria-labelledby="work-title">
+        <div class="section__head">
+          <span class="section__index">01</span>
+          <h2 class="section__title" id="work-title">Our <b style="
+  font-weight: 400;
+  color: var(--accent);">work</b></h2>
+          <p class="section__sub">A handful of recent projects. Each one started with a conversation.</p>
+        </div>
+
+        <div class="work__list">
+          <article class="work__item reveal" tabindex="0">
+            <div class="work__num">01</div>
+            <div class="work__body">
+              <h3 class="work__name">Marisol Coffee Co.</h3>
+              <p class="work__desc">A full brand identity and packaging system for a specialty roaster, built around the idea of slow mornings.</p>
+              <ul class="work__tags"><li>Identity</li><li>Packaging</li><li>Print</li></ul>
+            </div>
+            <div class="work__year">2025</div>
+          </article>
+
+          <article class="work__item reveal" tabindex="0">
+            <div class="work__num">02</div>
+            <div class="work__body">
+              <h3 class="work__name">Ferro Studio</h3>
+              <p class="work__desc">An editorial portfolio and digital home for an architecture practice, with an asymmetric, image-led layout.</p>
+              <ul class="work__tags"><li>Web Design</li><li>Art Direction</li></ul>
+            </div>
+            <div class="work__year">2025</div>
+          </article>
+
+          <article class="work__item reveal" tabindex="0">
+            <div class="work__num">03</div>
+            <div class="work__body">
+              <h3 class="work__name">The Tidal Report</h3>
+              <p class="work__desc">A 120-page editorial publication on coastal ecology — typography, layout, and cover art direction.</p>
+              <ul class="work__tags"><li>Editorial</li><li>Typography</li></ul>
+            </div>
+            <div class="work__year">2024</div>
+          </article>
+
+          <article class="work__item reveal" tabindex="0">
+            <div class="work__num">04</div>
+            <div class="work__body">
+              <h3 class="work__name">Halo Festival</h3>
+              <p class="work__desc">A bold visual identity and motion system for an independent music and arts festival.</p>
+              <ul class="work__tags"><li>Identity</li><li>Motion</li></ul>
+            </div>
+            <div class="work__year">2024</div>
+          </article>
+
+          <article class="work__item reveal" tabindex="0">
+            <div class="work__num">05</div>
+            <div class="work__body">
+              <h3 class="work__name">North &amp; Pine</h3>
+              <p class="work__desc">A warm, text-forward website and brand refresh for a boutique hospitality group.</p>
+              <ul class="work__tags"><li>Brand</li><li>Web</li></ul>
+            </div>
+            <div class="work__year">2023</div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="section services" id="services" aria-labelledby="services-title">
+        <div class="section__head">
+          <div>
+            <span class="section__index">02</span>
+            <h2 class="section__title" id="services-title">What we <b style="
+  font-weight: 400;
+  color: var(--accent);">provide</b></h2>
+          </div>
+          <p class="section__sub">Four disciplines, one studio. We work end-to-end or slot into your team.</p>
+        </div>
+        
+      
+        
+        <div class="services__grid">
+          <article class="service reveal">
+            <h3 class="service__title">Websites</h3>
+            <p class="service__desc">Marketing and informational sites for restaurants, retail, and service businesses — built to actually get found and get calls.</p>
+          </article>
+          <article class="service reveal">
+            <h3 class="service__title">Startup Pages</h3>
+            <p class="service__desc">Landing pages, waitlists, and MVP sites for early-stage founders who need something live, fast.</p>
+          </article>
+          <article class="service reveal">
+            <h3 class="service__title">Brand Identity </h3>
+            <p class="service__desc">Naming, logos, type systems, and guidelines that give your brand a backbone and a voice.</p>
+          </article>
+          <article class="service reveal">
+            <h3 class="service__title">Digital &amp; Web</h3>
+            <p class="service__desc">Websites and digital products designed and built in-house, from wireframe to launch.</p>
+          </article>
+          <article class="service reveal">
+            <h3 class="service__title">Art Direction</h3>
+            <p class="service__desc">Campaigns, photo direction, and motion that make a brand feel like a world.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- STUDIO STATEMENT -->
+      <section class="section studio" id="studio" aria-labelledby="studio-title">
+        <div class="section__head">
+          <span class="section__index">03</span>
+          <h2 class="section__title" id="studio-title">The Studio</h2>
+        </div>
+
+        <div class="studio__statement panel-3d">
+          <p class="studio__quote reveal">
+            We believe design should have a pulse — warm, deliberate, and a little
+            opinionated. We keep our team small on purpose, so the people you meet
+            are the people doing the work.
+          </p>
+          <p class="studio__body reveal">
+            Veroxity is an independent creative studio working with founders,
+            editors, and cultural institutions around the world. We're not here to
+            fill a template. We're here to make something that earns a second look —
+            and a third. Every project starts with listening and ends with
+            something we'd be proud to put our name on.
+          </p>
+          <p class="studio__sign reveal">— The team at Veroxity</p>
+        </div>
+
+        <!-- STATS -->
+        <div class="stats" aria-label="Studio by the numbers">
+          <div class="stat reveal">
+            <span class="stat__num" data-count="3">0</span>
+            <span class="stat__label">Years in practice</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__num" data-count="5">0</span>
+            <span class="stat__label">Projects shipped</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__num" data-count="1">0</span>
+            <span class="stat__label">Awards &amp; mentions</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__num" data-count="2">0</span>
+            <span class="stat__label">Countries served</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="section voices" id="voices" aria-labelledby="voices-title">
+        <div class="section__head">
+          <span class="section__index">04</span>
+          <h2 class="section__title" id="voices-title">Voices</h2>
+          <p class="section__sub">A few words from the people we've worked with.</p>
+        </div>
+
+        <div class="voices__grid">
+          <figure class="voice reveal">
+            <blockquote>“They gave our brand a point of view we didn't know we were missing. The work still feels fresh years later.”</blockquote>
+            <figcaption><span class="voice__name">Lena Ortiz</span><span class="voice__role">Founder, Marisol Coffee</span></figcaption>
+          </figure>
+
+          <figure class="voice reveal">
+            <blockquote>“Calm, sharp, and genuinely invested. Veroxity feels like an extension of our own team.”</blockquote>
+            <figcaption><span class="voice__name">Daniel Ferro</span><span class="voice__role">Principal, Ferro Studio</span></figcaption>
+          </figure>
+
+          <figure class="voice reveal">
+            <blockquote>“The editorial system they built made our report the most-read publication we've ever released.”</blockquote>
+            <figcaption><span class="voice__name">Priya Nair</span><span class="voice__role">Editor, The Tidal Report</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- CONTACT CTA -->
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact__panel panel-3d reveal">
+          <span class="eyebrow eyebrow--light">Let's make something</span>
+          <h2 class="contact__title" id="contact-title">
+            Got a project in mind?
+          </h2>
+          <p class="contact__sub">
+            Tell us what you're working on. We reply to every serious enquiry within two business days.
+          </p>
+          <a href="mailto:hello@veroxity.co" class="btn btn--primary btn--large">hello@veroxity.co</a>
+          <p class="contact__small">Or book a 20-minute intro call — no pitch deck required.</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <span class="footer__mark" aria-hidden="true">⚡</span>
+          <span class="footer__name">Veroxity</span>
+        </div>
+        <p class="footer__tag">An independent creative studio. Making things that refuse to be ignored.</p>
+      </div>
+
+      <div class="footer__cols">
+        <nav class="footer__col" aria-label="Studio">
+          <h3 class="footer__heading">Studio</h3>
+          <a href="#work">Work</a>
+          <a href="#services">Services</a>
+          <a href="#studio">About</a>
+          <a href="#voices">Voices</a>
+        </nav>
+        <nav class="footer__col" aria-label="Contact">
+          <h3 class="footer__heading">Contact</h3>
+          <a href="mailto:hello@veroxity.co">hello@veroxity.co</a>
+          <a href="#contact">Start a project</a>
+          <a href="#contact">Book a call</a>
+        </nav>
+        <nav class="footer__col" aria-label="Elsewhere">
+          <h3 class="footer__heading">Elsewhere</h3>
+          <a href="#" rel="noopener">Instagram</a>
+          <a href="#" rel="noopener">Are.na</a>
+          <a href="#" rel="noopener">LinkedIn</a>
+        </nav>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© <span id="year">2025</span> Veroxity. All rights reserved.</span>
+        <span class="footer__credit">Designed &amp; built in-house.</span>
+      </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
